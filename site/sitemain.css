@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-@import url("../ex/07/css/common.css");
+@import url("./common.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Noto+Sans+KR:wght@300;500;700&family=Raleway:wght@900&display=swap');
 
 
@@ -425,12 +425,13 @@ select{
 
 
 @media(max-width:767px){header{
-    width:375px; height:66px; padding:0 20px;}
+    width:390px; height:66px; padding:0 20px;}
+    .logo > nav {display:none;}
     .logo > a  > img {
-    width:40px; height:46px;
+    width:40px; height:46px; 
 }
     .logo>ul > li{
         display: none;
     }
     .logo > nav 
-    .main > p > img { width:375px; height:230px;}} 
+    .main > p > img {width:100px; height:100px;}} 
