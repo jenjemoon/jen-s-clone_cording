@@ -152,19 +152,7 @@ header {
 
 
 
-.arr div{
-position:absolute;
-height:10px;
-width:10px;
-border-top:2px solid rgb(129, 129, 129);
-border-left:2px solid rgb(129, 129, 129);
-transform: rotate(45deg);
 
-
-
-
-
-}
 .news>h2{
     font-size:54px;
     text-align: center;
