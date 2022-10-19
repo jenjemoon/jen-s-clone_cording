@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./sitemain.css" rel="stylesheet">
+    <link href="/site/sitemain.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="../img/favicon-16x16.png" sizes="16x16" />
     
@@ -19,7 +19,16 @@
     </style>
     <header>
         <div class="logo">
-            <a href="../site/sitemain.css"><img src="../img/logo.jpg"></a>
+            <a href="../site/sitemain.html"><img src="../img/logo.jpg"></a>
+            
+          
+            <a href="#" class="trigger-menu active"><img src="../img/KR.jpg"></a>
+            <a href="#" class="trigger-menu active"><img src="../img - 복사본/search.jpg"></a>
+            <button class="trigger-menu active"> 
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul>
               <li> <a href="../site/company.html">COMPANY</a>
                 
@@ -35,15 +44,11 @@
                 <a href="#"><img src="../img/KR.jpg"></a>
                 <a href="#" class="bi bi-search"></a>
                 
-          
+          </nav>
         </div>
         
-    </nav>
-    <button class="trigger-menu active"> 
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+    
+    
     </header>
 
     <secion class="main">
@@ -245,7 +250,7 @@
 </footer>
           
 <script>
-    const nav=document.querySelector('nav');
+    const nav=document.querySelector('.logo nav');
     const triggerMenu=document.querySelector('.trigger-menu');
 
     triggerMenu.onclick=function(){
@@ -253,13 +258,7 @@
         triggerManu.classList.toggle('active');
     }
 </script>
-    <script>
-        const ul =document.querySelector('.logo ul');
-        
-        ul.onclick=fuction(){
-            ul.classList.toggle('hidden');
-        }
-    </script>
+   
 
 </body>
 
